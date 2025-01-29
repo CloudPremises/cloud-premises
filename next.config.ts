@@ -5,6 +5,24 @@ const nextConfig: NextConfig = {
 
   basePath: '/cloud-premises',
   assetPrefix: '/cloud-premises/',
+
+  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cloudpremises.org',
+        port: '',
+        pathname: '/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
