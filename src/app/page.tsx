@@ -1,18 +1,19 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        
-        
+
+
         <Image
           className="dark:invert"
           src="/cloud.png"
           alt="Cloud Premises"
           width={180}
           height={38}
-          priority
+        // priority
         />
 
       </main>
@@ -22,12 +23,11 @@ export default function Home() {
 
 
         >
-          <Image
-            aria-hidden
+          <img
             src="/file.svg"
             alt="File icon"
-            width={16}
-            height={16}
+            width='16'
+            height='16'
           />
           Cloud Premises
         </h1>
@@ -37,12 +37,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
+          <img
+
             src="/window.svg"
             alt="Window icon"
-            width={16}
-            height={16}
+            width='16'
+            height='16'
           />
           LinkedIn
         </a>
@@ -52,12 +52,11 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
+          <img
             src="/globe.svg"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width='16'
+            height='16'
           />
           Github →
         </a>
