@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+// /* eslint-disable @next/next/no-Image-element */
 import Image from "next/image";
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
 
 
         >
-          <img
+          <Image
             src="/file.svg"
             alt="File icon"
             width='16'
@@ -37,7 +37,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
 
             src="/window.svg"
             alt="Window icon"
@@ -52,7 +52,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
+          <Image
             src="/globe.svg"
             alt="Globe icon"
             width='16'

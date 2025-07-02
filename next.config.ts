@@ -3,12 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
 
-  basePath: '/cloud-premises',
-  assetPrefix: '/cloud-premises/',
+  // basePath: '/cloud-premises',
+  // assetPrefix: '/cloud-premises/',
 
   /* config options here */
   images: {
-
     remotePatterns: [
       {
         protocol: 'https',
